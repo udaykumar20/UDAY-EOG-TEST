@@ -100,7 +100,7 @@ const dataFilter = (data: Plotly.Data[], selection: (string | undefined)[]) => {
 
 const dataTransformer = (data: MetricNode[]) => {
   const returnObj: Plotly.Data[] = [];
-  const colorArray: string[] = ['#8f0505', '#000', '#d73a49', '#673AB7', '#3F51B5', '#00505a'];
+  const colorArray: string[] = ['#8f0505', '#ffff00', '#d73a49', '#673AB7', '#3F51B5', '#00505a'];
   data.forEach(metricNode => {
     let metricObj: Plotly.Data = {
       x: [],
